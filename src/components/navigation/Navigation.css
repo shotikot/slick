@@ -1,0 +1,135 @@
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 1.5rem;
+  transition-duration: 0.3s;
+  z-index: 99;
+}
+
+.nav-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #5433fe, #27d6f5);
+  opacity: 0;
+  z-index: -1;
+  transition-duration: 0.3s;
+}
+
+.scrolled-nav .nav-bg {
+  opacity: 1;
+}
+
+.scrolled-nav {
+  padding-top: 0;
+}
+
+.nav-container img{
+  cursor: pointer;
+}
+
+.nav-container ul li {
+  display: inline-flex;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.nav-container ul a {
+  padding: 6px;
+  margin: 0 10px;
+  font-size: 18px;
+  border-bottom: 2px solid transparent;
+  transition-duration: 0.3s;
+}
+
+.nav-container ul a:hover {
+  border-color: #ffffff;
+}
+
+.active-li {
+  border-color: #ffffff !important;
+}
+
+.nav-ul-button {
+  display: none;
+}
+
+.exit {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .exit {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 9;
+  }
+
+  .nav-out {
+    right: 0 !important;
+  }
+
+  .nav-ul-container {
+    position: absolute;
+    right: -100vw;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    transition-duration: 0.3s;
+  }
+
+  .nav-ul-container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20vh 0 0 0;
+    height: 100%;
+  }
+
+  .nav-ul-container ul li {
+    color: #000000;
+    display: flex;
+    font-size: 26px;
+  }
+
+  .nav-container {
+    padding-top: 0.5rem;
+  }
+
+  .nav-ul-button {
+    display: inline-flex;
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
+  .nav-ul-button div {
+    height: 2px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    margin: 3px 0;
+  }
+
+  .nav-ul-button div:nth-child(1) {
+    width: 22px;
+  }
+
+  .nav-ul-button div:nth-child(2) {
+    width: 32px;
+  }
+
+  .nav-ul-button div:nth-child(3) {
+    width: 17px;
+  }
+}

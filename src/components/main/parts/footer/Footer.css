@@ -1,0 +1,15 @@
+.footer-container{
+    background-color: #180e29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container h3{
+    color: #3ecf8b;
+    padding: 2rem 0;
+}
+
+.footer-container h3 span{
+    color: #ffffff;
+}

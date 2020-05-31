@@ -1,0 +1,55 @@
+.team-container{
+    text-align: center;
+    padding-top: 15%;
+}
+
+.team-container{
+    padding: 50px 0;
+}
+
+.team-container p{
+    margin-bottom: 40px;
+}
+
+.team{
+    display: inline-grid;
+    width: 90vw;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.member{
+    width: 80%;
+    border: 1px solid rgb(216, 216, 216);
+    transition-duration: .3s;
+}
+
+.member:hover{
+    transform: translateY(-4px);
+}
+
+.member img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.member p{
+    margin: 12px 0;
+}
+
+@media(max-width:768px){
+    .team{
+        grid-template-columns: auto auto;
+    }
+
+    .member{
+        margin: 10px 0;
+    }
+}
+
+@media(max-width: 524px){
+    .team{
+        grid-template-columns: auto;
+    }
+}
