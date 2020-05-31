@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/slick/static/css/main.c6fcdf45.chunk.css",
-    "main.js": "/slick/static/js/main.d3b440e4.chunk.js",
-    "main.js.map": "/slick/static/js/main.d3b440e4.chunk.js.map",
+    "main.js": "/slick/static/js/main.87257d10.chunk.js",
+    "main.js.map": "/slick/static/js/main.87257d10.chunk.js.map",
     "runtime-main.js": "/slick/static/js/runtime-main.5b436628.js",
     "runtime-main.js.map": "/slick/static/js/runtime-main.5b436628.js.map",
     "static/js/2.cc7fd7f6.chunk.js": "/slick/static/js/2.cc7fd7f6.chunk.js",
     "static/js/2.cc7fd7f6.chunk.js.map": "/slick/static/js/2.cc7fd7f6.chunk.js.map",
     "index.html": "/slick/index.html",
-    "precache-manifest.9813aa07731499d106cee0d5e0d2cdb2.js": "/slick/precache-manifest.9813aa07731499d106cee0d5e0d2cdb2.js",
+    "precache-manifest.6a434deee78fa3abaddd95e02dfd1fb3.js": "/slick/precache-manifest.6a434deee78fa3abaddd95e02dfd1fb3.js",
     "service-worker.js": "/slick/service-worker.js",
     "static/css/main.c6fcdf45.chunk.css.map": "/slick/static/css/main.c6fcdf45.chunk.css.map",
     "static/js/2.cc7fd7f6.chunk.js.LICENSE.txt": "/slick/static/js/2.cc7fd7f6.chunk.js.LICENSE.txt",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.5b436628.js",
     "static/js/2.cc7fd7f6.chunk.js",
     "static/css/main.c6fcdf45.chunk.css",
-    "static/js/main.d3b440e4.chunk.js"
+    "static/js/main.87257d10.chunk.js"
   ]
 }
