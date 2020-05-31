@@ -9,8 +9,8 @@ export const Intro = () => {
       <div className="intro-text">
         <h1>Hire us and gain profit to your business</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolores
-          ea fugiat nesciunt quisquam.
+          After 2017, almost 250 companies started using
+          our service.
         </p>
         <div className="intro-buttons">
           <button className="primary-button">GET STARTED</button>

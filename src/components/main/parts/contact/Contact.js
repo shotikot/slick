@@ -14,8 +14,8 @@ export const Contact = () => {
     <div className="contact-container">
       <h1>Get In Touch</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur <br/> adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore.
+        Contact us by writing email, <br/> we will get in touch with you
+        soon.
       </p>
       <div className="contact-grid">
         <div className="contact-form-container">

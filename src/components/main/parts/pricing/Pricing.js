@@ -47,8 +47,9 @@ export const Pricing = () => {
     <div className="pricing-container">
       <h1>Pricing Plans</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br/> sed do eiusmod
-        tempor incididunt ut labore et dolore.
+        Choose your plan and contact us,<br/> it takes
+        only one week to get started and finish your 
+        business with us.
       </p>
       <div className="pricing">
         {items.map((item, i) => {

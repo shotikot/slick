@@ -40,8 +40,8 @@ export const Team = () => {
     <div className="team-container">
       <h1>Team Members</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-        <br /> sed do eiusmod tempor incididunt ut labore et dolore.
+        Here are people, whol will make your life successfull,
+        <br /> they are ready to help you 24/7.
       </p>
       <div className="team">
         {items.map((item, i) => {

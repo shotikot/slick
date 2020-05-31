@@ -42,13 +42,13 @@ const Overview = () => {
           <img src={require("./Icons/bussiness.png")} alt="overview logo" />
         </div>
         <div className="overview-info">
-          <h1>Crafted For Business, Startup and Agency Websites</h1>
+          <h1>Created to gain you enormous profits.</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Slick was founded in 2017, by Johan Mathers.
+            This startup gained popularity in Los Angeles and
+            then spreaded in whole United State of America.
+            Despite, our service is also available in France,
+            Germany and Norway.
           </p>
           <button className="primary-button">Get Started</button>
         </div>
